@@ -39,7 +39,6 @@ makeCacheMatrix <- function(x = matrix()) {
 ## example: cacheSolve(a)
 
 cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
     
     #check cache
     i <- x$getinverse()
